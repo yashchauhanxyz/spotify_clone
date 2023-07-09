@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@200&display=swap');
+body{
+    background-color: rgb(24, 23, 23);
+    
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    background-color: black;
+    height: 60px;
+    color: white;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 15px;
+    font-family: 'Anybody', cursive;
+    font-weight: bold;
+}
+
+.brand img{
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.container{
+    min-height: 60vh;
+    font-family: 'Anybody', cursive;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 30px;
+    /*background-image: url("images/banner3.jpeg");*/
+    background-color: #166d3b;
+background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.songitem{
+    height: 80px;
+    display: flex;
+    width: 300px;
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.songitem img{
+    height: 70px;
+    border-radius: 5px;
+}
+
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    margin: 0 20px;
+}
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songbanner img{
+    width: 300px;
+    border-radius: 1%;
+}
+.songbanner{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
